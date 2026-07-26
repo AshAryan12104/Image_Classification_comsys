@@ -1,11 +1,11 @@
 
-# 🎯 Robust Face and Gender Recognition in Challenging Environments
+#  Robust Face and Gender Recognition in Challenging Environments
 
 This repository contains our complete solution for the **Comsys Hackathon**, where we address two real-world computer vision tasks using PyTorch, metric learning, and a web-based evaluation frontend.
 
 ---
 
-## 🧠 Tasks Overview
+##  Tasks Overview
 
 ### 🔹 Task A – Gender Classification
 - **Objective**: Classify face images as **male** or **female**
@@ -73,7 +73,7 @@ Comsys_Hackathon/
 
 ---
 
-## 🧠 Architecture
+##  Architecture
 
 ### Task A – Gender Classification
 •	Backbone: ResNet18 (pretrained on ImageNet)
@@ -107,7 +107,7 @@ Comsys_Hackathon/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repo
 <pre> ```
@@ -134,18 +134,18 @@ python train_matcher.py
 
 ---
 
-## 🔐 Download Pretrained Model Weights
+##  Download Pretrained Model Weights
 
 To run evaluation without retraining, download the pretrained model checkpoints from the link below:
 
-📦 [Download Model Weights from Google Drive](https://drive.google.com/drive/folders/1IjbLg77rXdhvyadaN2vDwgEpFyu935v2?usp=sharing)
+ [Download Model Weights from Google Drive](https://drive.google.com/drive/folders/1IjbLg77rXdhvyadaN2vDwgEpFyu935v2?usp=sharing)
 
 ### Files Included:
 
 - `best_model.pt` → Used for Task A (Gender Classification)
 - `matcher_model.pt` → Used for Task B (Face Matching)
 
-### 📂 Where to Place the Files:
+###  Where to Place the Files:
 
 After downloading, place them in the following location inside the project: (This is very important)
 <pre> ```
@@ -155,11 +155,11 @@ After downloading, place them in the following location inside the project: (Thi
 │   │   └── matcher_model.pt  # For Task B
 ``` </pre>
 
-> ⚠️ Make sure the folder structure matches exactly, or the evaluation scripts may not find the model files.
+>  Make sure the folder structure matches exactly, or the evaluation scripts may not find the model files.
 
 ---
 
-## ✅ Evaluation
+##  Evaluation
 
 ### 🔹 Task A (Gender)
 <pre>
@@ -190,7 +190,7 @@ python evaluate_matcher_results.py
 
 ---
 
-## 🌐 Frontend: Web Evaluation Portal 
+##  Frontend: Web Evaluation Portal 
 
 1. Run the backend:
 <pre>
@@ -214,15 +214,15 @@ http://localhost:5000
 
 ---
 
-## 📊 Sample Metrics
+##  Sample Metrics
 
-### ✅ Task A
+###  Task A
 - Accuracy  : 94.7867 %
 - Precision : 97.4277 %
 - Recall    : 95.5836 %
 - F1-Score  : 96.4968 %
 
-### ✅ Task B
+###  Task B
 - Top-1 Accuracy: 100.0000 %
 - Precision : 100.0000 %
 - Recall    : 100.0000 %
@@ -233,13 +233,13 @@ http://localhost:5000
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed as part of a Hackathon and is intended for academic and demonstration use only.
 
 ---
 
-## 👥 Team BYTEBash
+##  Team BYTEBash
 
 - **Name:** Md Aryan Rehman, Raiyan Aftab Ansari, Priyanshu Mishra.
 - **GitHub:** https://github.com/AshAryan12104
